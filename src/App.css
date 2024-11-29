@@ -1,0 +1,16 @@
+header {
+  background: black;
+  height: 91px;
+  color: white;
+}
+
+.app {
+  display: flex;
+  height: calc(100vh - 91px);
+}
+
+nav {
+  width: 117px;
+  background: black;
+  color: white;
+}
