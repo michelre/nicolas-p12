@@ -12,7 +12,7 @@ import './Performance.css';
 const Performance = () => {
   const characteristic = [
     { subject: 'Intensité', A: 55, B: 110, fullMark: 150 },
-    { subject: 'Vitesse', A: 130, B: 130, fullMark: 150 },
+    { subject: 'Vitesse', A: 125, B: 130, fullMark: 150 },
     { subject: 'Force', A: 95, B: 130, fullMark: 150 },
     { subject: 'Endurance', A: 120, B: 100, fullMark: 150 },
     { subject: 'Energie', A: 115, B: 90, fullMark: 150 },
