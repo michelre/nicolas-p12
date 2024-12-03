@@ -1,0 +1,27 @@
+.average-session-container {
+    background: #FF0000;
+    border-radius: 4px;
+}
+
+.custom-tooltip {
+    background: white;
+    padding: 4px;
+    font-size: 8px;
+}
+
+.average-session-content {
+    position: absolute;
+    width: 258px;
+    height: 263px;
+    
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 148px;
+    color: white;
+    opacity: .5;
+    font-size: 15px;
+}

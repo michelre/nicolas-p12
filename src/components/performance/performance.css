@@ -1,0 +1,27 @@
+.performance-container {
+    background-color: #282D30; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+    height: 225px; 
+    margin-left: 
+    400px;
+  }
+  
+  .polar-grid {
+    stroke: white; 
+  }
+  
+  .polar-angle-axis {
+    stroke: white;
+    font-size: 14px;
+    font-weight: bold;
+   
+  }
+  
+  .radar-chart {
+    stroke: #FF0101;
+    fill: #FF0101; 
+    fill-opacity: 0.7; 
+  }
+  
