@@ -31,9 +31,11 @@ const Dashboard = () => {
     return userData && activity && averageSession && performance && <div>
         Bonjour {userData.data.userInfos.firstName}
         <Activity data={activity.data}/>
+        <div className='Test'>
         <AverageSession data={averageSession.data}/>
         <Performance data={performance.data} />
         <Score data={userData.data}/>
+        </div>
         <Calories data={userData.data} />
     </div>
 }
