@@ -1,0 +1,45 @@
+.vignette {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #FBFBFB;
+    box-shadow: 0px 2px 4px 0px #00000005;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 32px;
+}
+
+.vignette-image {
+    opacity: .5;
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.image-calories {
+    background-color: #FF0000;
+}
+
+.image-proteines {
+    background-color: #4AB8FF;
+}
+
+.image-glucides {
+    background-color: #F9CE23;
+}
+
+.image-lipides {
+    background-color: #FD5181;
+}
+
+.vignette-number {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.vignette-type {
+    color: #74798C;
+    font-size: 14px;
+    margin: 0;;
+}

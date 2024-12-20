@@ -1,6 +1,7 @@
 .average-session-container {
     background: #FF0000;
     border-radius: 4px;
+    width: 100%;
 }
 
 .custom-tooltip {
