@@ -77,3 +77,8 @@ header {
   background-color: white;
   padding: 20px;
 }
+.nav-icon {
+  width: 40px; /* Ajuste selon tes besoins */
+  height: 40px;
+  object-fit: contain;
+}
