@@ -1,16 +1,17 @@
 import './calories.css';
-import caloriesIcon from '../../assets/calories-icon.png';
-import proteinIcon from '../../assets/protein-icon.png';
-import carbsIcon from '../../assets/carbs-icon.png';
-import fatIcon from '../../assets/fat-icon.png';
+import caloriesIcon from '../../assets/calories-icon.svg';
+import proteinIcon from '../../assets/proteines-icon.svg';
+import carbsIcon from '../../assets/glucides-icon.svg';
+import fatIcon from '../../assets/lipides-icon.svg';
 
 const Calories = ({ data }) => {
   return (
-    <div>
+    <div className='vignettes'>
       <div className="vignette">
-        <div className="vignette-image image-calories">
-          <img alt="icon calories" src={caloriesIcon} />
-        </div>
+        <div className="vignette-image">
+          <div className='background image-calories'></div>
+          <img alt="icon calories" className="icon" src={caloriesIcon} />
+        </div>        
         <div className="vignette-content">
           <p className="vignette-number">{data.keyData.calorieCount}kCal</p>
           <p className="vignette-type">Calories</p>
@@ -18,8 +19,9 @@ const Calories = ({ data }) => {
       </div>
 
       <div className="vignette">
-        <div className="vignette-image image-proteines">
-          <img alt="icon proteines" src={proteinIcon} />
+        <div className="vignette-image">
+        <div className='background image-proteines'></div>
+          <img alt="icon proteines" className='icon' src={proteinIcon} />
         </div>
         <div className="vignette-content">
           <p className="vignette-number">{data.keyData.proteinCount}g</p>
@@ -28,8 +30,9 @@ const Calories = ({ data }) => {
       </div>
 
       <div className="vignette">
-        <div className="vignette-image image-glucides">
-          <img alt="icon glucides" src={carbsIcon} />
+        <div className="vignette-image">
+        <div className='background image-glucides'></div>
+          <img alt="icon glucides" className="icon" src={carbsIcon} />
         </div>
         <div className="vignette-content">
           <p className="vignette-number">{data.keyData.carbohydrateCount}g</p>
@@ -38,8 +41,9 @@ const Calories = ({ data }) => {
       </div>
 
       <div className="vignette">
-        <div className="vignette-image image-lipides">
-          <img alt="icon lipides" src={fatIcon} />
+        <div className="vignette-image ">
+        <div className='background image-lipides'></div>
+          <img alt="icon lipides"  className="icon" src={fatIcon} />
         </div>
         <div className="vignette-content">
           <p className="vignette-number">{data.keyData.lipidCount}g</p>

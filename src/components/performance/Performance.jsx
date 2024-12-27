@@ -29,7 +29,7 @@ const Performance = () => {
           y={y - 4} 
           textAnchor="middle"
           fill="white"
-          style={{ fontSize: '14px', fontWeight: 'bold' }}
+          style={{ fontSize: '11px', fontWeight: 'bold' }}
         >
           {payload.value}
         </text>
@@ -42,7 +42,7 @@ const Performance = () => {
           y={y + 10} 
           textAnchor="middle"
           fill="white"
-          style={{ fontSize: '14px', fontWeight: 'bold' }}
+          style={{ fontSize: '11px', fontWeight: 'bold' }}
         >
           {payload.value}
         </text>
@@ -51,11 +51,11 @@ const Performance = () => {
       // Regroupe Cardio et Energie
       return (
         <text
-          x={ x - 28} 
+          x={ x - 18} 
           y={y + 5}
           textAnchor="middle"
           fill="white"
-          style={{ fontSize: '14px', fontWeight: 'bold' }}
+          style={{ fontSize: '11px', fontWeight: 'bold' }}
         >
           {payload.value}
         </text>
@@ -64,11 +64,11 @@ const Performance = () => {
       // Regroupe Vitesse et Force
       return (
         <text
-          x={x + 23 } 
+          x={x + 15 } 
           y={y + 3}
           textAnchor="middle"
           fill="white"
-          style={{ fontSize: '14px', fontWeight: 'bold' }}
+          style={{ fontSize: '11px', fontWeight: 'bold' }}
         >
           {payload.value}
         </text>

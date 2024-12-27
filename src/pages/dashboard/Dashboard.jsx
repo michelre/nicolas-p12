@@ -37,9 +37,15 @@ const Dashboard = () => {
             <div>
                 <Activity data={activity.data}/>
                 <div className='charts-stats'>
-                    <AverageSession data={averageSession.data}/>
-                    <Performance data={performance.data} />
-                    <Score data={userData.data}/>
+                    <div>
+                        <AverageSession data={averageSession.data}/>
+                    </div>  
+                    <div>
+                        <Performance data={performance.data} />
+                    </div>
+                    <div>
+                        <Score data={userData.data}/>
+                    </div>                                                          
                 </div>
             </div>                
             <div>
