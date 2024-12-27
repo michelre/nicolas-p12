@@ -2,15 +2,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
 }
 
 header {
   background: black;
   height: 91px;
   color: white;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
   align-items: center;
   padding: 0 20px;
 }
@@ -28,8 +27,8 @@ header {
 
 /* Navigation links in header */
 .nav-links {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .nav-links a {
@@ -37,6 +36,7 @@ header {
   color: white;
   font-size: 1rem;
   transition: color 0.3s;
+  text-align: center;
 }
 
 .nav-links a:hover {
@@ -58,6 +58,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
+  flex-shrink: 0;
 }
 
 .side-nav .nav-item {
@@ -76,4 +77,11 @@ header {
   flex-grow: 1;
   background-color: white;
   padding: 20px;
+  width: calc(100% - 117px);
+    box-sizing: border-box;
+}
+.nav-icon {
+  width: 40px; /* Ajuste selon tes besoins */
+  height: 40px;
+  object-fit: contain;
 }
